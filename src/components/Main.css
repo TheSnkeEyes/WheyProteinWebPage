@@ -1,0 +1,108 @@
+.Main {
+    display: flex;
+}
+
+.main_paragraph {
+    width: 40vw;
+    height: auto;
+    margin: 160px;
+}
+
+.main_paragraph h1 {
+    font-size: 3em;
+    font-weight: 400;
+    line-height: 10px;
+}
+
+.with_letter {
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.25em;
+    letter-spacing: -5px;
+}
+.vigo_letter {
+    font-weight: bold;
+    color: #6ac459;
+    font-size: 1.20em;
+}
+
+.main_paragraph button {
+    width: 220px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #6ac459;
+    border: none;
+    font-size: 1.15em;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main_paragraph button:hover {
+    background: none;
+    color: #6ac459;
+    border: 2px solid #6ac459;
+}
+
+.main_paragraph p {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+
+.image_section {
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    position: absolute;
+    right: 0px;
+    align-items: center;
+}
+
+
+.back_img {
+    z-index: 1;
+    width: 100px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.back_img img {
+    width: 230px;
+}
+
+.back_img:hover {
+    z-index: 3;
+    transform: scale(1.2);
+}
+.front_img {
+    z-index: 2;
+    width: 200px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.front_img:hover{
+    transform: scale(1.2);
+}
+
+.front_img img{
+    width: 300px;
+}
+
+.second_back_img {
+    z-index: 1;
+    width: 100px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+
+.second_back_img img {
+    width: 230px;
+}
+
+.second_back_img:hover {
+    z-index: 3;
+    transform: scale(1.2);
+}
